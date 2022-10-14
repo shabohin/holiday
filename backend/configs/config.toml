@@ -1,0 +1,5 @@
+bind_addr = ":8000"
+log_level = "debug"
+
+[database]
+uri = "postgresql://holidayusr:holidaypwd@127.0.0.1:5432/holidaydb?sslmode=disable"
