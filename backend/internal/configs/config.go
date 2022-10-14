@@ -12,7 +12,7 @@ type database struct {
 type Config struct {
 	BindAddr string   `env:"BIND_ADDR" toml:"bind_addr" env-default:":8000"`
 	LogLevel string   `env:"LOG_LEVEL" toml:"log_level" env-default:"debug"`
-	Database database `toml:"database"`
+	Database database `toml:"database1"`
 }
 
 func ParseConfig(configPath string) (*Config, error) {
